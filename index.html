@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Landing Page using HTML, CSS & Javascript</title>
+
+    <!-- ==== STYLE.CSS ==== -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- ====  REMIXICON CDN ==== -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!-- ==== ANIMATE ON SCROLL CSS CDN  ==== -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- ==== HEADER ==== -->
+    <header class="container header">
+      <!-- ==== NAVBAR ==== -->
+      <nav class="nav">
+        <div class="logo">
+          <h2>ASEAN NEWS</h2>
+        </div>
+
+        <div class="nav_menu" id="nav_menu">
+          <button class="close_btn" id="close_btn">
+            <i class="ri-close-fill"></i>
+          </button>
+
+          <ul class="nav_menu_list">
+            <li class="nav_menu_item">
+              <a href="#" class="nav_menu_link">Sign Up</a>
+            </li>
+            <li class="nav_menu_item">
+              <a href="#" class="nav_menu_link">Log In</a>
+            </li>
+          </ul>
+        </div>
+
+        <button class="toggle_btn" id="toggle_btn">
+          <i class="ri-menu-line"></i>
+        </button>
+      </nav>
+    </header>
+
+    <section class="wrapper">
+      <div class="container">
+        <div class="grid-cols-2">
+          <div class="grid-item-1">
+            <h1 class="main-heading">
+              Innovate.
+              <br />
+              Collaborate.
+              <br />  News.
+            </h1>
+            <p class="info-text">
+              A movement that represents the youth in ASEAN to voice out their concerns and strategise for ways to achieve a better ASEAN Community.
+
+            </p>
+
+            <div class="btn_wrapper">
+              <button class="btn view_more_btn">
+                EXPLORE NOW <i class="ri-arrow-right-line"></i>
+              </button>
+
+              <button class="btn documentation_btn">FORUM</button>
+            </div>
+          </div>
+          <div class="grid-item-2">
+            <div class="team_img_wrapper">
+              <img src="./images/team.svg" alt="team-img" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrapper">
+      <div class="container" data-aos="fade-up" data-aos-duration="1000">
+        <div class="grid-cols-3">
+          <div class="grid-col-item">
+            <div class="icon">
+              <svg
+              <svg xmlns="http://www.w3.org/2000/svg" 
+              width="16" 
+              height="16" 
+              fill="currentColor" 
+              class="bi bi-people" 
+              viewBox="0 0 16 16"> 
+              <path d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816zM4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275zM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4z"/> </svg>
+              
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                />
+              </svg>
+            </div>
+            <div class="featured_info">
+              <span>89</span>
+              <p>
+                Forum Discussion
+              </p>
+            </div>
+          </div>
+          <div class="grid-col-item">
+            <div class="icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                <path d="M256 64C256 99.35 227.3 128 192 128C156.7 128 128 99.35 128 64C128 28.65 156.7 0 192 0C227.3 0 256 28.65 256 64zM155.7 170.2C167.3 173.1 179.6 176 192.2 176C232.1 176 269.3 155.8 291 122.4L309.2 94.54C318.8 79.73 338.6 75.54 353.5 85.18C368.3 94.82 372.5 114.6 362.8 129.5L344.7 157.3C326.4 185.4 301.2 207.3 272 221.6V480C272 497.7 257.7 512 240 512C222.3 512 208 497.7 208 480V384H176V480C176 497.7 161.7 512 144 512C126.3 512 112 497.7 112 480V221.4C83.63 207.4 58.94 186.1 40.87 158.1L21.37 129.8C11.57 115 15.54 95.18 30.25 85.37C44.95 75.57 64.82 79.54 74.62 94.25L94.12 123.5C108.5 145 129.2 160.9 152.9 169.3C153.9 169.5 154.8 169.8 155.7 170.2V170.2z"/></svg>
+              </svg>
+            </div>
+            <div class="featured_info">
+              <span>3489</span>
+              <p>
+                Young People Reached
+              </p>
+            </div>
+          </div>
+
+          <div class="grid-col-item">
+            <div class="icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-stars" viewBox="0 0 16 16"> 
+                <path d="M7.657 6.247c.11-.33.576-.33.686 0l.645 1.937a2.89 2.89 0 0 0 1.829 1.828l1.936.645c.33.11.33.576 0 .686l-1.937.645a2.89 2.89 0 0 0-1.828 1.829l-.645 1.936a.361.361 0 0 1-.686 0l-.645-1.937a2.89 2.89 0 0 0-1.828-1.828l-1.937-.645a.361.361 0 0 1 0-.686l1.937-.645a2.89 2.89 0 0 0 1.828-1.828l.645-1.937zM3.794 1.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387A1.734 1.734 0 0 0 4.593 5.69l-.387 1.162a.217.217 0 0 1-.412 0L3.407 5.69A1.734 1.734 0 0 0 2.31 4.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387A1.734 1.734 0 0 0 3.407 2.31l.387-1.162zM10.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732L9.1 2.137a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L10.863.1z"/> </svg>
+              </svg>
+            </div>
+            <div class="featured_info">
+              <span>456</span>
+              <p>
+                Youth-Led Community Reached
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class = "social-icons">
+        <ul>
+            <li>
+                <a href= "#"><i class = "fab fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href= "#"><i class = "fab fa-twitter"></i></a>
+            </li>
+            <li>
+                <a href= "#"><i class = "fab fa-instagram"></i></a>
+            </li>
+            <li>
+                <a href= "#"><i class = "fab fa-youtube"></i></a>
+            </li>
+        </ul>
+    </div>
+</div>
+</header>
+
+<section class = "banner">
+<div class = "banner-main-content">
+    <h2>GET THE LATEST ASEAN TECH NEWS</h2>
+
+
+    
+    <div class = "current-news-head">
+        <h3>Match Fixing Scandal Shakes Southeast Asian Football Again <span>by biel </span></h3>
+        <h3>The Taste of Typical Filipino Wine, Made Not from Grapes <span>by ahmad </span></h3>
+        <h3>International E-Seminar: Towards ASEAN Chairmanship 2023 <span>by yui</span></h3>
+        <h3>After ASEAN and G-20, diplomats make last push on Ukraine crisis at APEC <span>by thohir</span></h3>
+    </div>
+</div>
+
+<div class = "banner-sub-content">
+    <div class = "hot-topic">
+        <img src = "images/jokowi.png" alt = "">
+
+        <div class = "hot-topic-content">
+            <h2>Jokowi Admits There Are 12 Serious Human Rights Violations in Indonesia</h2>
+            <a href = "#">Read More</a>
+        </div>
+    </div>
+
+    <div class = "hot-topic">
+        <img src = "images/indo.png" alt = "">
+
+        <div class = "hot-topic-content">
+            <h2>Match Fixing Shakes Southeast Asian Football Again</h2>
+            <a href = "#">Read More</a>
+        </div>
+    </div>
+
+    <div class = "hot-topic">
+        <img src = "images/cewe.png" alt = "">
+
+        <div class = "hot-topic-content">
+            <h2>ASEAN Countries Agree on Cooperation in Science</h2>
+            <a href = "#">Read More</a>
+        </div>
+    </div>
+
+    <div class = "hot-topic">
+        <img src = "images/ase.png" alt = "">
+
+        <div class = "hot-topic-content">
+            <h2>Closer to ASEAN at the 2012 ASEAN Cultural Show</h2>
+            <a href = "#">Read More</a>
+        </div>
+    </div>
+</div>
+</section>
+
+<hr>
+
+<main>
+<section class = "main-container-left">
+    <h2>Top Topic</h2>
+    <div class = "container-top-left">
+        <article>
+            <img src = "images/cowo.png">
+
+            <div>
+                <h3>ASEAN Corporate - 
+                  Political-Security Community</h3>
+
+                <p>The APSC Blueprint envisages ASEAN to be a rules-based Community of shared values and norms; a cohesive, peaceful, stable and resilient region with shared.</p>
+
+                <a href = "#">Read More <span>>></span></a>
+            </div>
+        </article>
+    </div>
+
+    <div class = "container-bottom-left">
+        <article>
+            <img src = "images/ads.png">
+            <div>
+                <h3>Contact us for Advertisiment</h3>
+                <p>Check out these helpful tips and contact us page examples.</p>
+
+                <a href = "#">Read More <span>>></span></a>
+            </div>
+        </article>
+
+        <article>
+          <img src = "images/ads.png">
+          <div>
+              <h3>Contact us for Advertisiment</h3>
+              <p>Check out these helpful tips and contact us page examples.</p>
+
+              <a href = "#">Read More <span>>></span></a>
+          </div>
+      </article>
+    </div>
+</section>
+
+<section class = "main-container-right">
+    <h2>Latest Post</h2>
+    
+    <article>
+        <h4>just in </h4>
+        <div>
+          <h2>Why walk? Check out the best electric scooters and e-bikes for 2020</h2>
+
+          <p>Check out the best electric scooters</p>
+
+            <a href = "#">Read More <span>>></span></a>
+        </div>
+        <img src = "images/new.png">
+    </article>
+
+    <article>
+        <h4>just in </h4>
+        <div>
+          <h2>Philippines says South China Sea ruling not on agenda at ASEAN summit</h2>
+
+          <p>Philippines at ASEAN summit</p>
+
+            <a href = "#">Read More <span>>></span></a>
+        </div>
+        <img src = "images/kapal.png">
+    </article>
+
+    <article>
+        <h4>just in </h4>
+        <div>
+            <h2>Goldman Sachs says ASEAN markets’ decade-long underperformance</h2>
+
+            <p>Decade-long underperformance</p>
+
+            <a href = "#">Read More <span>>></span></a>
+        </div>
+        <img src = "images/bota.png">
+    </article>
+
+    <article>
+        <h4>just in </h4>
+        <div>
+            <h2>The Rising Economy of Vietnam | Asia's Next Powerhouse?</h2>
+
+            <p>Asia's Next Powerhouse?</p>
+
+            <a href = "#">Read More <span>>></span></a>
+        </div>
+        <img src = "images/viet.png">
+    </article>
+
+    <article>
+        <h4>just in </h4>
+        <div>
+            <h2>As ASEAN turns 50, focus turns to region’s shaky civil liberties plight</h2>
+
+            <p>focus turns to region’s shaky civil liberties plight</p>
+
+            <a href = "#">Read More <span>>></span></a>
+        </div>
+        <img src = "images/haa.png">
+    </article>
+</section>
+</main>
+
+
+
+    
+
+<footer>
+  <p>@2023 asean news. All Rights Reserved.</p>
+</footer>
+
+    <!-- ==== ANIMATE ON SCROLL JS CDN -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- ==== GSAP CDN ==== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <!-- ==== SCRIPT.JS ==== -->
+    <script src="./script.js" defer></script>
+  </body>
+</html>
